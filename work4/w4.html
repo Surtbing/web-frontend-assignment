@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <title>用点心学校</title>
+    <link rel="stylesheet" href="./w4.css">
+    <style>
+        @font-face {
+            font-family: "bana";
+            src: url("./font/bana.ttf");
+        }
+
+        @font-face {
+            font-family: "gulu";
+            src: url("./font/gulu.ttf");
+        }
+
+        @font-face {
+            font-family: "pencil";
+            src: url("./font/pencil.ttf");
+        }
+    </style>
+    <script src="./audio.js" defer></script>
+</head>
+
+<body>
+    <h1>
+        让我们来注册加入吧！
+        <svg t="1728655773107" id="playButton" class="play-button" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6285" width="200" height="200"><path d="M513 138.02c50.01 0 98.49 9.78 144.08 29.06 44.08 18.64 83.68 45.35 117.7 79.37s60.73 73.63 79.37 117.7c19.28 45.59 29.06 94.07 29.06 144.08 0 50.01-9.78 98.49-29.06 144.08-18.64 44.08-45.35 83.68-79.37 117.7s-73.63 60.73-117.7 79.37c-45.59 19.28-94.07 29.06-144.08 29.06s-98.49-9.78-144.08-29.06c-44.08-18.64-83.68-45.35-117.7-79.37s-60.73-73.63-79.37-117.7c-19.28-45.59-29.06-94.07-29.06-144.08 0-50.01 9.78-98.49 29.06-144.08 18.64-44.08 45.35-83.68 79.37-117.7s73.63-60.73 117.7-79.37c45.59-19.28 94.07-29.06 144.08-29.06m0-76.35c-246.64 0-446.57 199.94-446.57 446.57 0 246.64 199.94 446.57 446.57 446.57s446.57-199.94 446.57-446.57C959.57 261.6 759.64 61.67 513 61.67z" fill="#231815" p-id="6286"></path><path d="M424.36 624.79m-148.69 0a148.69 148.69 0 1 0 297.38 0 148.69 148.69 0 1 0-297.38 0Z" fill="#F7B52C" p-id="6287"></path><path d="M677.89 426.14L556.76 692.01 417.79 628.7l168.39-369.61z" fill="#F7B52C" p-id="6288"></path><path d="M765.34 508.53L523.36 398.29l63.31-138.97z" fill="#F7B52C" p-id="6289"></path></svg>
+        <audio id="audioPlayer" loop src="backgroundmusic.mp3"></audio>
+    </h1>
+    <div class="container">
+        <div class="main">
+            <form class="gulu box" action="" method="get">
+                昵称：<input type="text" name="nickname" required><br>
+                密码：<input type="password" name="password" required><br>
+                生日：<input class="selects" type="date" name="birthday" required><br>
+                性别：<input type="radio" name="gender" value="male">男
+                <input type="radio" name="gender" value="female">女<br>
+                点心专业：<select class="selects" name="dessert">
+                    <option value="">请选择入学身份</option>
+                    <option value="pudding">小小布丁人</option>
+                    <option value="fish">鱼刺粥人</option>
+                    <option value="fry">蛋煎小子</option>
+                    <option value="rice">糯米团小妹</option>
+                </select><br>
+                甜品爱好：<input type="checkbox" name="preference" id="pre1" value="tiger">虎皮儿蛋糕
+                <input type="checkbox" name="preference" id="pre2" value="tart">葡萄粒蛋挞
+                <input type="checkbox" name="preference" id="pre3" value="chocolate">巧克力豆皮<br>
+                上传头像：<input type="file" name="avator" accept="image/png,image/jpg,image/gif,image/jpeg"><br>
+                <input class="inputs" type="submit" name="submit" value="提交">
+            </form>
+        </div>
+        <div class="avator">
+            <img src="school.jpg" alt="用点心学校">
+        </div>        
+        
+    </div>
+
+    
+</body>
+
+</html>

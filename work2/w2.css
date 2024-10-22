@@ -1,0 +1,27 @@
+header > h1, footer {
+    color: rgb(198, 96, 171);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(137, 39, 159);
+}
+
+p {
+    color: rgb(207, 125, 152);
+}
+
+main {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    margin: 1;
+    text-align: center;
+    /* background-color: rgb(255, 159, 159); */
+}

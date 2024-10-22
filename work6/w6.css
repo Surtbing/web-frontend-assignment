@@ -1,0 +1,12 @@
+*, *::before, *::after {
+    margin:0;
+    padding: 0;
+}
+
+div {
+    background-image: url("../work6/rain.jpg");
+}
+
+.text {
+    font-family: "";
+}

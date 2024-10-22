@@ -1,0 +1,104 @@
+body {
+    margin: auto 10%;
+}
+
+h1 {
+    color: rgb(159, 44, 106);
+    border: 0.5rem outset pink;
+    outline: 0.5rem solid rgb(233, 227, 172);
+    box-shadow: 0 0 0 2rem rgb(169, 214, 232);
+    border-radius:12px; 
+    font-family:'bana';
+    margin: 2rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: 5px solid rgb(205, 185, 243);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.gulu {
+    color: rgb(186, 102, 148);
+    font-family: 'gulu';
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.box {
+    margin: 10px;
+    padding: 25px;
+    text-shadow: 4px 4px 3px #77f;
+}
+
+.selects {
+    font-family: 'pencil';
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.inputs {
+    font-family: 'pencil';
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.avator {
+    height: 100%;
+}
+
+.avator>img {
+    height: 18rem;
+    border-radius: 50%;
+    box-shadow: 4px 4px 3px #77f;
+}
+
+h1>audio, h1>svg {
+    display: block;
+}
+
+h1>svg {
+    height: 2rem;
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.play-button {
+  width: 2rem;
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+}
+
+.playing {
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.inputs {
+    margin-top: 2rem;
+    padding: 0.3rem 2rem;
+    border-radius: 50%;
+    border: dashed purple;
+    background-color: rgb(205, 185, 243);
+}
