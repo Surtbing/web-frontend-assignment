@@ -6,15 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>古诗词</title>
     <link rel="stylesheet" href="./w6.css">
+    <style>
+        /* 设置全屏居中 */
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            /* 水平居中 */
+            align-items: center;
+            /* 垂直居中 */
+            font-family: Arial, sans-serif;
+        }
+    </style>
 </head>
 
 <body>
-    <div>
-        <audio controls src="../work6/music.mp3"></audio>
-        <h1>竹枝词</h1>
-        <h3>唐 刘禹锡</h3>
-        <p>杨柳青青江水平，闻郎江上唱歌声</p>
-        <p>东边日出西边雨，道是无晴却有晴</p>
+    <div class="centered-element">
+
+        <div class="background"><audio controls src="../work6/music.mp3"></audio>
+
+            <div class="poem">
+                <a class="title" href="w61.html">竹枝词</a>
+                <h3>唐 刘禹锡</h3>
+                <a href="w61.html">
+                    <p>杨柳青青江水平，闻郎江上唱歌声</p>
+                    <p>东边日出西边雨，道是无晴却有晴</p>
+                </a>
+            </div>
+
+            <div class="container">
+                <img class="photo" src="huannv.jpg" alt="描述" title="浣女">
+            </div>
+        </div>
     </div>
 
 </body>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美食制作</title>
+</head>
+<body>
+    <h1>美食制作小世界</h1>
+    <p>试着点击下面的玉米弟弟、小小布丁人、蛋糕女孩和饼干妹妹，让我们一起进入美食制作的环节~</p>
+
+    <!--usemap 值以哈希标签 # 开头，后跟图像映射的名称，用于在图像和图像映射之间创建关系-->
+    <img src="./photo/makefood.png" alt="Makefood" usemap="#makefood">
+    <map name="makefood">
+        <!--注：点击动画未实现-->
+        <area shape="rect" coords="2, 298, 182, 604 " href="./pudding.htm" alt="小小布丁人" title="小小布丁人">
+        <area shape="rect" coords="180, 10, 421, 547" href="./popcorn.htm" alt="玉米弟弟" title="玉米弟弟">
+        <area shape="rect" coords="453, 247, 719, 671" href="./cookie.htm" alt="饼干妹妹" title="饼干妹妹">
+        <area shape="rect" coords="14, 693, 836, 1148" href="./cake.htm" alt="蛋糕女孩" title="蛋糕女孩">
+    </map>
+</body>
+</html>

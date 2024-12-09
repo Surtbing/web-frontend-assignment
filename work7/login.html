@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <title>用点心学校 - 登录</title>
+    <link rel="stylesheet" href="./w7.css">
+    <style>
+        @font-face {
+            font-family: "bana";
+            src: url("./font/bana.ttf");
+        }
+
+        @font-face {
+            font-family: "gulu";
+            src: url("./font/gulu.ttf");
+        }
+
+        @font-face {
+            font-family: "pencil";
+            src: url("./font/pencil.ttf");
+        }
+    </style>
+    <script src="./audio.js" defer></script>
+</head>
+
+<body>
+    <h1>
+        <span class="text">欢迎回来！</span>
+        <div class="logo-container">
+            <svg xmins="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+                <!-- SVG logo code here (same as in index.html) -->
+            </svg>
+        </div>
+        <svg t="1728655773107" id="playButton" class="play-button" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6285" width="200" height="200">
+            <!-- SVG path code here (same as in index.html) -->
+        </svg>
+        <audio id="audioPlayer" loop src="backgroundmusic.mp3"></audio>
+    </h1>
+    <div class="container">
+        <div class="main">
+            <form class="gulu box" action="" method="post">
+                昵称：<input type="text" class="small-radius" name="nickname" required><br>
+                密码：<input type="password" class="small-radius" name="password" required><br>
+                <input class="inputs small-radius" type="submit" name="submit" value="登录">
+            </form>
+        </div>
+        <div class="avator">
+            <img src="school.jpg" alt="用点心学校">
+        </div>
+    </div>
+    
+    <!-- 添加注册页面链接 -->
+    <div style="text-align: center; margin-top: 20px;">
+        <a href="index.html" class="login-link">返回注册页面</a>
+    </div>
+</body>
+
+</html>

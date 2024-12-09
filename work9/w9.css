@@ -1,0 +1,28 @@
+body {
+    font-family: "ball";
+}
+
+/*链接颜色*/
+a:link {
+    color: aquamarine;  /*未访问*/
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blueviolet;  /*已访问*/
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkorange;  /*悬停*/
+    text-decoration: underline;
+
+}
+
+a:active {
+    color: deeppink;    /*活动链接*/
+    background-color: transparent;
+    text-decoration: none;
+}

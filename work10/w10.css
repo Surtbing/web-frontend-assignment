@@ -1,0 +1,28 @@
+/* 设置表单元素对齐 */
+form .userForm div {
+    display: flex;
+    justify-content: space-between;  /* 标签与输入框之间的空隙 */
+    align-items: center;  /* 垂直居中对齐 */
+    margin-bottom: 1rem;  /* 每一行之间的垂直间距 */
+}
+
+form .userForm label {
+    width: 100px;  /* 标签固定宽度 */
+    font-weight: bold;  /* 标签加粗 */
+}
+
+form .userForm input {
+    width: 200px;  /* 设置统一的输入框宽度 */
+    padding: 0.2rem;  /* 输入框内边距 */
+}
+
+table,
+th,
+td {
+    border: 1.5px solid black;
+    padding: 0.5rem;
+}
+
+th, td {
+    text-align: center;  /* 表格文本居中 */
+}

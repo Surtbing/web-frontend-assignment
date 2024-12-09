@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "QianTuXianMoTi-2";
+    src: url("font/QianTuXianMoTi-2.ttf");
+}
+
+div {
+    font-family: "QianTuXianMoTi-2";
+    font-family: 'QianTuXianMoTi-2';
+    text-align: center;/* 水平居中 */
+    font-size: 60px;  /* 字体大小 */
+    line-height: 1.6; /* 调整行高，使诗句间距适中 */
+    margin-top: 20px;/* 顶部外边距 */
+    color: rgb(4, 42, 42);
+    
+}
+

@@ -1,12 +1,40 @@
-*, *::before, *::after {
-    margin:0;
-    padding: 0;
+@font-face {
+    font-family: "QianTuXianMoTi-2";
+    src: url("font/QianTuXianMoTi-2.ttf");
 }
 
-div {
-    background-image: url("../work6/rain.jpg");
+body {
+    /* background-color: #f6f6f6; */
+    background: linear-gradient(to bottom, #fff 0%, #fff 5%, #f6f6f6 50%, #f6f6f6 100%);
 }
 
-.text {
-    font-family: "";
+.background {
+    background-image: url("bird.jpg");
+    background-position: top right;/* 设置背景图片位置为右上角 */
+    background-repeat: no-repeat;
+}
+
+.poem {
+    font-family: 'QianTuXianMoTi-2';
+    text-align: center;       /* 水平居中 */
+    font-size: 60px;          /* 字体大小 */
+    line-height: 1.6;         /* 调整行高，使诗句间距适中 */
+    margin-top: 20px;         /* 顶部外边距 */
+    
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+/* 鼠标悬停时改变颜色和字体粗细 */
+.title:hover {
+    color: #47e738;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
 }
